@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 25 20:42:34 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>32 seconds (32229 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TAFrameworkJAVA.testscripts.demo.AspireTA_Java_Framework_Demo.TcHostedCheckout001()'><b>TcHostedCheckout001</b><br>Test class: com.TAFrameworkJAVA.testscripts.demo.AspireTA_Java_Framework_Demo<br>Test method: Verify the functionality of Hosted Checkout web service<br>Parameters: , chrome_WIN8_1<br/>
+<a href="#Output-1439515644" onClick='toggleBox("Output-1439515644", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1439515644" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1439515644">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">null[ ]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-message">&emsp;Step 1. Call Checkout web service and get Partial Redirect Url</div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Webservice Details</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;Request URI is =>  https://api-sandbox.globalcollect.com/v1/2281/hostedcheckouts</div><br/>
+<div class="test-message">&emsp;Request URI is =>  https://api-sandbox.globalcollect.com/v1/2281/hostedcheckouts</div><br/>
+<div class="test-message">&emsp;Request Headers Are:</div><br/>
+<div class="test-message">&emsp;Request Headers Are:</div><br/>
+<div class="test-message">&emsp;Authorization:GCS v1HMAC:f8a2dea0a45989cd:uoLIVfyfAOtyvREECyWjDLaEoNfPh5WPlbCjVq5knB0=</div><br/>
+<div class="test-message">&emsp;Authorization:GCS v1HMAC:f8a2dea0a45989cd:uoLIVfyfAOtyvREECyWjDLaEoNfPh5WPlbCjVq5knB0=</div><br/>
+<div class="test-message">&emsp;X-GCS-RequestId:1cc6daff-a305-4d7b-94b0-c580fd5ba6b4</div><br/>
+<div class="test-message">&emsp;X-GCS-RequestId:1cc6daff-a305-4d7b-94b0-c580fd5ba6b4</div><br/>
+<div class="test-message">&emsp;Content-Type:application/json; charset=utf-8</div><br/>
+<div class="test-message">&emsp;Content-Type:application/json; charset=utf-8</div><br/>
+<div class="test-message">&emsp;X-GCS-MessageId:6480071e-039d-4dca-a966-4ce3c1bc201b</div><br/>
+<div class="test-message">&emsp;X-GCS-MessageId:6480071e-039d-4dca-a966-4ce3c1bc201b</div><br/>
+<div class="test-message">&emsp;Date:Tue, 17 Jul 2018 13:06:36 GMT</div><br/>
+<div class="test-message">&emsp;Date:Tue, 17 Jul 2018 13:06:36 GMT</div><br/>
+<div class="test-message">&emsp;Request Body is =>  {
+  "order" : {
+    "amountOfMoney" : {
+      "currencyCode" : "EUR",
+      "amount" : 100
+    },
+    "customer" : {
+      "merchantCustomerId" : 2281,
+      "billingAddress" : {
+        "countryCode" : "NL"
+      }
+    }
+  },
+  "hostedCheckoutSpecificInput" : {
+    "variant" : "testVariant",
+    "locale" : "en_GB"
+  }
+}</div><br/>
+<div class="test-message">&emsp;Request Body is =>  {
+  "order" : {
+    "amountOfMoney" : {
+      "currencyCode" : "EUR",
+      "amount" : 100
+    },
+    "customer" : {
+      "merchantCustomerId" : 2281,
+      "billingAddress" : {
+        "countryCode" : "NL"
+      }
+    }
+  },
+  "hostedCheckoutSpecificInput" : {
+    "variant" : "testVariant",
+    "locale" : "en_GB"
+  }
+}</div><br/>
+<div class="test-message">&emsp;Response Body is =>  {
+   "RETURNMAC" : "1febf660-7a24-4fbc-aa5e-fa4274c040ab",
+   "hostedCheckoutId" : "dadb46da-cb5c-4743-b2db-9622b7cf5914",
+   "partialRedirectUrl" : "pay1.sandbox.secured-by-ingenico.com/checkout/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7?requestToken=6d9fad2f-fc0b-4d87-9a4a-608db1048f48"
+}</div><br/>
+<div class="test-message">&emsp;Response Body is =>  {
+   "RETURNMAC" : "1febf660-7a24-4fbc-aa5e-fa4274c040ab",
+   "hostedCheckoutId" : "dadb46da-cb5c-4743-b2db-9622b7cf5914",
+   "partialRedirectUrl" : "pay1.sandbox.secured-by-ingenico.com/checkout/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7?requestToken=6d9fad2f-fc0b-4d87-9a4a-608db1048f48"
+}</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:42:43 955 - <b>1</b> - Driver::initialize::Get - com.TAFrameworkJAVA.support.WebDriverFactory.get(WebDriverFactory.java:525)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:42:57 781 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/select-payment-product/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:42:57 968 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/select-payment-product/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:42:58 079 - Element is displayed:: [[ChromeDriver: chrome on WIN8_1 (451ddc69ed8bd1c3a649c67589f57de2)] -> id: paymentoptionslist]</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 2. Navigated to Select Payment product Page!</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:42:58 172 - Element is displayed:: [[ChromeDriver: chrome on WIN8_1 (451ddc69ed8bd1c3a649c67589f57de2)] -> css selector: li[data-sortablelisttext='Visa Debit'] button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:00 696 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 3. Selected Visa Debit option from the pyament product page&emsp;<a href=".\ScreenShot\TcHostedCheckout001_1.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:01 150 - Element is displayed:: [[ChromeDriver: chrome on WIN8_1 (451ddc69ed8bd1c3a649c67589f57de2)] -> id: cardNumber]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:01 510 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 4. Entered Visa Card Number details</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:01 565 - Element is displayed:: [[ChromeDriver: chrome on WIN8_1 (451ddc69ed8bd1c3a649c67589f57de2)] -> id: expiryDate]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:01 722 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 5. Entered Visa Card ExpireDate details</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:01 780 - Element is displayed:: [[ChromeDriver: chrome on WIN8_1 (451ddc69ed8bd1c3a649c67589f57de2)] -> id: cvv]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:01 961 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 6. Entered Visa Card cvvNumber details</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:02 015 - Element is displayed:: [[ChromeDriver: chrome on WIN8_1 (451ddc69ed8bd1c3a649c67589f57de2)] -> id: primaryButton]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 25 Jul 20:43:04 915 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/result/2281-785701c8405544e596633a1b7997307a:dadb46da-cb5c-4743-b2db-9622b7cf5914:ef7bef0cd6fd4bb596cd3870a7b385b7</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 7. Navigated to Confirm Payment Page!</div><br/>
+<div class="test-message">&emsp;Step 8. Verified Payment Confirmation message &emsp;<a href=".\ScreenShot\TcHostedCheckout001_2.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed.  </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.TAFrameworkJAVA.testscripts.demo.AspireTA_Java_Framework_Demo@79be0360</td></tr>
+</table><p>
+</body>
+</html>

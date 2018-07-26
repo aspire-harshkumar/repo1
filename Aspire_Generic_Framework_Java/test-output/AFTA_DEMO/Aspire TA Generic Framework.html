@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Aspire TA Generic Framework</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Aspire TA Generic Framework</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 26 00:08:30 GMT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41225 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.igenico.testscripts.IngenicoPayment_CheckOutService.TcHostedCheckout001()'><b>TcHostedCheckout001</b><br>Test class: com.igenico.testscripts.IngenicoPayment_CheckOutService<br>Test method: Making payment using Ingenico Hosted Checkout service for registered customers<br>Parameters: (Browser: chrome, Hub: aspire1265, Node: LOCALHOST), chrome_WIN8_1<br/>
+<a href="#Output-305614779" onClick='toggleBox("Output-305614779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305614779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305614779">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Making payment using Ingenico Hosted Checkout service for registered customers[Chrome ]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:34 352 - <b>1</b> - Driver::initialize::Get - com.genric.support.WebDriverFactory.get(WebDriverFactory.java:523)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:34 628 - Page URL:: data:,</small> </font> </div><br/>
+<div class="test-message">&emsp;Login page Launched successfully!! &emsp;<a href=".\ScreenShot\TcHostedCheckout001_1.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:47 281 - Page URL:: https://sandbox.account.ingenico.com/#/login</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:47 478 - Page URL:: https://sandbox.account.ingenico.com/#/login</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:47 591 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> css selector: button[ng-click='login()']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 1. Ingenico login page loaded successfully!! &emsp;<a href=".\ScreenShot\TcHostedCheckout001_2.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:48 189 - Page URL:: https://sandbox.account.ingenico.com/#/login</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:48 310 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> css selector: input[id='loginName']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Username entered in username field is: lakshmi.nagandla@aspiresys.com</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:48 774 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> css selector: input[id='loginPassword']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Password entered in password field is: May@2018</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:49 022 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> css selector: button[ng-click='login()']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:49 317 - Page URL:: https://sandbox.account.ingenico.com/#/login</small> </font> </div><br/>
+<div class="test-message">&emsp;Loign button is clicked:</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:49 501 - Page URL:: https://sandbox.account.ingenico.com/#/login</small> </font> </div><br/>
+<div class="test-message">&emsp;Dashboard page Launched successfully!! &emsp;<a href=".\ScreenShot\TcHostedCheckout001_3.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Step 2. Dashboard page displayed after login into ingenico with valid credentials!!&emsp;<a href=".\ScreenShot\TcHostedCheckout001_4.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:50 398 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> css selector: a[href*='apikey']]</small> </font> </div><br/>
+<div class="test-message">&emsp;MyAPIKey link is clicked:</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:50 788 - Page URL:: https://sandbox.account.ingenico.com/#/account/apikey</small> </font> </div><br/>
+<div class="test-message">&emsp;API Keys page Launched successfully!! &emsp;<a href=".\ScreenShot\TcHostedCheckout001_5.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:51 344 - Page URL:: https://sandbox.account.ingenico.com/#/account/apikey</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 05:38:51 588 - Page URL:: https://sandbox.account.ingenico.com/#/account/apikey</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 3. Able to view APIKey: 104c4a7dc55f4cca SeceretKey: LcvgwvmFNt01UNvFsgQG3S94rUd5fgKnSVpL1732UBQ= successfully!! &emsp;<a href=".\ScreenShot\TcHostedCheckout001_6.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;The Created Authentication Signature  :GCS v1HMAC:104c4a7dc55f4cca:Z0/akGo1ZT80LLN8oqkGQxSLtTJkDjCMYq5Gxuyc0vg=</div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080"></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;Request URI is =>  https://api-sandbox.globalcollect.com/v1/2270/hostedcheckouts</div><br/>
+<div class="test-message">&emsp;Request URI is =>  https://api-sandbox.globalcollect.com/v1/2270/hostedcheckouts</div><br/>
+<div class="test-message">&emsp;Request Headers Are:</div><br/>
+<div class="test-message">&emsp;Request Headers Are:</div><br/>
+<div class="test-message">&emsp;Authorization:GCS v1HMAC:104c4a7dc55f4cca:Z0/akGo1ZT80LLN8oqkGQxSLtTJkDjCMYq5Gxuyc0vg=</div><br/>
+<div class="test-message">&emsp;Authorization:GCS v1HMAC:104c4a7dc55f4cca:Z0/akGo1ZT80LLN8oqkGQxSLtTJkDjCMYq5Gxuyc0vg=</div><br/>
+<div class="test-message">&emsp;X-GCS-RequestId:1cc6daff-a305-4d7b-94b0-c580fd5ba6b4</div><br/>
+<div class="test-message">&emsp;X-GCS-RequestId:1cc6daff-a305-4d7b-94b0-c580fd5ba6b4</div><br/>
+<div class="test-message">&emsp;Content-Type:application/json; charset=utf-8</div><br/>
+<div class="test-message">&emsp;Content-Type:application/json; charset=utf-8</div><br/>
+<div class="test-message">&emsp;X-GCS-MessageId:6480071e-039d-4dca-a966-4ce3c1bc201b</div><br/>
+<div class="test-message">&emsp;X-GCS-MessageId:6480071e-039d-4dca-a966-4ce3c1bc201b</div><br/>
+<div class="test-message">&emsp;Date:Thu, 26 Jul 2018 00:07:36 GMT</div><br/>
+<div class="test-message">&emsp;Date:Thu, 26 Jul 2018 00:07:36 GMT</div><br/>
+<div class="test-message">&emsp;Request Body is =>  {
+  "hostedCheckoutSpecificInput" : {
+    "variant" : "testVariant",
+    "locale" : "en_GB"
+  },
+  "order" : {
+    "amountOfMoney" : {
+      "currencyCode" : "EUR",
+      "amount" : 100
+    },
+    "customer" : {
+      "merchantCustomerId" : 2281,
+      "billingAddress" : {
+        "countryCode" : "NL"
+      }
+    }
+  }
+}</div><br/>
+<div class="test-message">&emsp;Request Body is =>  {
+  "hostedCheckoutSpecificInput" : {
+    "variant" : "testVariant",
+    "locale" : "en_GB"
+  },
+  "order" : {
+    "amountOfMoney" : {
+      "currencyCode" : "EUR",
+      "amount" : 100
+    },
+    "customer" : {
+      "merchantCustomerId" : 2281,
+      "billingAddress" : {
+        "countryCode" : "NL"
+      }
+    }
+  }
+}</div><br/>
+<div class="test-message">&emsp;Response Body is =>  {
+   "RETURNMAC" : "91f594a3-3782-4cbf-bf6f-04ce141c9765",
+   "hostedCheckoutId" : "dbea5999-0879-44aa-b833-7d997584610c",
+   "partialRedirectUrl" : "pay1.sandbox.secured-by-ingenico.com/checkout/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b?requestToken=fe411cce-99a4-4a36-a1db-4c2bd1c048f0"
+}</div><br/>
+<div class="test-message">&emsp;Response Body is =>  {
+   "RETURNMAC" : "91f594a3-3782-4cbf-bf6f-04ce141c9765",
+   "hostedCheckoutId" : "dbea5999-0879-44aa-b833-7d997584610c",
+   "partialRedirectUrl" : "pay1.sandbox.secured-by-ingenico.com/checkout/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b?requestToken=fe411cce-99a4-4a36-a1db-4c2bd1c048f0"
+}</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:03 460 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/select-payment-product/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:03 885 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/select-payment-product/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:03 956 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> id: paymentoptionslist]</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 4. Navigated to Select Payment product Page!&emsp;<a href=".\ScreenShot\TcHostedCheckout001_7.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:04 272 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> css selector: li[data-sortablelisttext='Visa Debit'] button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:06 083 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 5. Selected Visa Debit option from the pyament product page&emsp;<a href=".\ScreenShot\TcHostedCheckout001_8.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:06 469 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> id: cardNumber]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:06 969 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 6. Entered Visa Card Number details</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:07 077 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> id: expiryDate]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:07 451 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 7. Entered Visa Card ExpireDate details</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:07 556 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> id: cvv]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:07 980 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/payment-product-details/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 8. Entered Visa Card cvvNumber details&emsp;<a href=".\ScreenShot\TcHostedCheckout001_9.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:08 335 - Element is displayed:: [[RemoteWebDriver: chrome on WIN8_1 (8a7dcb53-736d-407b-816d-fe0870f1c6b4)] -> id: primaryButton]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 Jul 00:09:10 106 - Page URL:: https://payment.pay1.sandbox.secured-by-ingenico.com/checkout/result/2270-b5cb826723644c2d8aa45f0492214d0c:dbea5999-0879-44aa-b833-7d997584610c:d84d4289378a45d8ae5fceb70effc74b</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 9. Navigated to Confirm Payment Page!</div><br/>
+<div class="test-message">&emsp;Step 10. Verified Payment Confirmation message &emsp;<a href=".\ScreenShot\TcHostedCheckout001_10.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed.  </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.igenico.testscripts.IngenicoPayment_CheckOutService@cd2dae5</td></tr>
+</table><p>
+</body>
+</html>

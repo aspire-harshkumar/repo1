@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#-------------------------------------------------------"
+          }
+        ],
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "hostedcheckout.feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Customer Fetch Partial RedirectURL",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Customer navigate to Hosted Checkout Page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "HostedCheckout.feature",
+    "description": "",
+    "id": "hostedcheckout.feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/TAFrameworkJAVA/CucumberTest/Feature/HostedCheckout.feature"
+  }
+]
