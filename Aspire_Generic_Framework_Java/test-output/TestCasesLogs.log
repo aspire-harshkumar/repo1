@@ -1,0 +1,196 @@
+30-Jul-2018 13:37:35:569 INFO  [PoolService-0]  
+30-Jul-2018 13:37:35:570 INFO  [PoolService-0] ****             Making payment using Ingenico Hosted Checkout service for registered customers[Chrome ]             ***** 
+30-Jul-2018 13:37:35:570 INFO  [PoolService-0]  
+30-Jul-2018 13:37:40:118 DEBUG [PoolService-0] Driver::initialize::Get 
+30-Jul-2018 13:37:40:287 DEBUG [PoolService-0] Page URL:: data:, 
+30-Jul-2018 13:37:40:588 INFO  [PoolService-0] Login page Launched successfully!!  
+30-Jul-2018 13:37:44:255 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/login 
+30-Jul-2018 13:37:44:326 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/login 
+30-Jul-2018 13:37:44:525 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (f1355d3ed52d8a31e49cd3d8faf5c4c1)] -> css selector: button[ng-click='login()']] 
+30-Jul-2018 13:37:44:931 INFO  [PoolService-0] Step 1. Ingenico login page loaded successfully!!  
+30-Jul-2018 13:37:44:999 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/login 
+30-Jul-2018 13:37:45:106 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (f1355d3ed52d8a31e49cd3d8faf5c4c1)] -> css selector: input[id='loginName']] 
+30-Jul-2018 13:37:45:368 INFO  [PoolService-0] Username entered in username field is: lakshmi.nagandla@aspiresys.com 
+30-Jul-2018 13:37:45:478 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (f1355d3ed52d8a31e49cd3d8faf5c4c1)] -> css selector: input[id='loginPassword']] 
+30-Jul-2018 13:37:45:655 INFO  [PoolService-0] Password entered in password field is: May@2018 
+30-Jul-2018 13:37:45:750 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (f1355d3ed52d8a31e49cd3d8faf5c4c1)] -> css selector: button[ng-click='login()']] 
+30-Jul-2018 13:37:45:905 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/login 
+30-Jul-2018 13:37:45:905 INFO  [PoolService-0] Loign button is clicked: 
+30-Jul-2018 13:37:45:964 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/login 
+30-Jul-2018 13:37:46:381 INFO  [PoolService-0] Dashboard page Launched successfully!!  
+30-Jul-2018 13:37:46:807 INFO  [PoolService-0] Step 2. Dashboard page displayed after login into ingenico with valid credentials!! 
+30-Jul-2018 13:37:46:900 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (f1355d3ed52d8a31e49cd3d8faf5c4c1)] -> css selector: a[href*='apikey']] 
+30-Jul-2018 13:37:47:059 INFO  [PoolService-0] MyAPIKey link is clicked: 
+30-Jul-2018 13:37:47:145 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/account/apikey 
+30-Jul-2018 13:37:47:560 INFO  [PoolService-0] API Keys page Launched successfully!!  
+30-Jul-2018 13:37:47:616 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/account/apikey 
+30-Jul-2018 13:37:47:718 DEBUG [PoolService-0] Page URL:: https://sandbox.account.ingenico.com/#/account/apikey 
+30-Jul-2018 13:37:48:137 INFO  [PoolService-0] Step 3. Able to view APIKey: 104c4a7dc55f4cca SeceretKey: LcvgwvmFNt01UNvFsgQG3S94rUd5fgKnSVpL1732UBQ= successfully!!  
+30-Jul-2018 13:37:48:391 INFO  [PoolService-0] The Created Authentication Signature  :GCS v1HMAC:104c4a7dc55f4cca:SlKeGvsaRNK54vWEnoFeizXfQrgArZlpTHsLBAzxnVs= 
+30-Jul-2018 13:37:48:392 INFO  [PoolService-0]  
+30-Jul-2018 13:37:48:392 INFO  [PoolService-0] ****                          ***** 
+30-Jul-2018 13:37:48:392 INFO  [PoolService-0]  
+30-Jul-2018 13:37:49:426 INFO  [PoolService-0] Request URI is =>  https://api-sandbox.globalcollect.com/v1/2270/hostedcheckouts 
+30-Jul-2018 13:37:49:426 INFO  [PoolService-0] Request URI is =>  https://api-sandbox.globalcollect.com/v1/2270/hostedcheckouts 
+30-Jul-2018 13:37:49:859 INFO  [PoolService-0] Request Headers Are: 
+30-Jul-2018 13:37:49:859 INFO  [PoolService-0] Request Headers Are: 
+30-Jul-2018 13:37:49:860 INFO  [PoolService-0] Authorization:GCS v1HMAC:104c4a7dc55f4cca:SlKeGvsaRNK54vWEnoFeizXfQrgArZlpTHsLBAzxnVs= 
+30-Jul-2018 13:37:49:861 INFO  [PoolService-0] Authorization:GCS v1HMAC:104c4a7dc55f4cca:SlKeGvsaRNK54vWEnoFeizXfQrgArZlpTHsLBAzxnVs= 
+30-Jul-2018 13:37:49:948 INFO  [PoolService-0] X-GCS-RequestId:1cc6daff-a305-4d7b-94b0-c580fd5ba6b4 
+30-Jul-2018 13:37:49:949 INFO  [PoolService-0] X-GCS-RequestId:1cc6daff-a305-4d7b-94b0-c580fd5ba6b4 
+30-Jul-2018 13:37:49:951 INFO  [PoolService-0] Content-Type:application/json; charset=utf-8 
+30-Jul-2018 13:37:49:951 INFO  [PoolService-0] Content-Type:application/json; charset=utf-8 
+30-Jul-2018 13:37:49:956 INFO  [PoolService-0] X-GCS-MessageId:6480071e-039d-4dca-a966-4ce3c1bc201b 
+30-Jul-2018 13:37:49:956 INFO  [PoolService-0] X-GCS-MessageId:6480071e-039d-4dca-a966-4ce3c1bc201b 
+30-Jul-2018 13:37:49:957 INFO  [PoolService-0] Date:Mon, 30 Jul 2018 08:07:36 GMT 
+30-Jul-2018 13:37:49:957 INFO  [PoolService-0] Date:Mon, 30 Jul 2018 08:07:36 GMT 
+30-Jul-2018 13:37:49:959 INFO  [PoolService-0] Request Body is =>  {
+  "order" : {
+    "customer" : {
+      "merchantCustomerId" : 2281,
+      "billingAddress" : {
+        "countryCode" : "NL"
+      }
+    },
+    "amountOfMoney" : {
+      "currencyCode" : "EUR",
+      "amount" : 100
+    }
+  },
+  "hostedCheckoutSpecificInput" : {
+    "variant" : "testVariant",
+    "locale" : "en_GB"
+  }
+} 
+30-Jul-2018 13:37:49:959 INFO  [PoolService-0] Request Body is =>  {
+  "order" : {
+    "customer" : {
+      "merchantCustomerId" : 2281,
+      "billingAddress" : {
+        "countryCode" : "NL"
+      }
+    },
+    "amountOfMoney" : {
+      "currencyCode" : "EUR",
+      "amount" : 100
+    }
+  },
+  "hostedCheckoutSpecificInput" : {
+    "variant" : "testVariant",
+    "locale" : "en_GB"
+  }
+} 
+30-Jul-2018 13:37:52:619 FATAL [PoolService-0] Connection refused: connect 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:522)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:401)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:1974)
+	at com.jayway.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:341)
+	at com.jayway.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at com.jayway.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at com.jayway.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at com.jayway.restassured.filter.Filter$filter.call(Unknown Source)
+	at com.jayway.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:73)
+	at com.jayway.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at com.jayway.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at com.jayway.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:73)
+	at com.jayway.restassured.filter.FilterContext$next.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1596)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:164)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:248)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+	at com.igenico.checkout.RestClient.sendRequest(RestClient.java:65)
+	at com.igenico.checkout.CheckOutRequest.callCheckoutService(CheckOutRequest.java:59)
+	at com.igenico.testscripts.IngenicoPayment_CheckOutService.TcHostedCheckout001(IngenicoPayment_CheckOutService.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+30-Jul-2018 13:37:52:622 INFO  [PoolService-0] ****             -E---N---D-             ***** 
